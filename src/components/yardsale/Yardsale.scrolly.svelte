@@ -497,7 +497,8 @@
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:26%"></div>
 								<span class="percentageInside">26%</span>
-								<img src="assets\yardsale\art\apple.png" class="logoEnd" alt="Apple Logo"/>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEnd" alt="Apple Logo"/>
 							</div>
 						</div>
 					</div>
@@ -507,121 +508,127 @@
 						{:else}
 						<div class="gameInfoItem brighter">Jon</div>
 						{/if}
-						<div class="gameInfoItem">Day 1 retention</div>
-						<div class="gameInfoItem">
-							<div class="gameInfoFullbar">
-								<div class="gameInfoBar" style="width:23%"></div>
-								<span class="percentageInside">23%</span>
-							</div>
-						</div>
-					</div>
-					<div class="player8 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player8</div>
 						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:7%"></div>
 								<span class="percentageInside">7%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEndLeft" alt="Apple Logo"/>
+							</div>
+						</div>
+					</div>
+					<div class="player8 wealthNumber" in:fade={{ delay: 400 }} out:fade>
+						<div class="gameInfoItem">
+							<div class="gameInfoFullbar">
+								<div class="gameInfoBar" style="width:23%"></div>
+								<span class="percentageInside">23%</span>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEnd" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>
 					<!-- New progress bar for player9 -->
 					<div class="player9 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player9</div>
-						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:4%"></div>
 								<span class="percentageInside">4%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEndLeft" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>
 					<div class="player10 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player8</div>
 						<div class="gameInfoItem">Day 1 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:33%"></div>
 								<span class="percentageInside">33%</span>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEnd" alt="Apple Logo"/>
 							</div>
 						</div>
 					</div>
 					<!-- New progress bar for player9 -->
 					<div class="player11 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player9</div>
-						<div class="gameInfoItem">Day 1 retention</div>
-						<div class="gameInfoItem">
-							<div class="gameInfoFullbar">
-								<div class="gameInfoBar" style="width:29%"></div>
-								<span class="percentageInside">29%</span>
-							</div>
-						</div>
-					</div>	
-					<div class="player12 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player8</div>
 						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:9%"></div>
 								<span class="percentageInside">9%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEndLeft" alt="Apple Logo"/>
+							</div>
+						</div>
+					</div>	
+					<div class="player12 wealthNumber" in:fade={{ delay: 400 }} out:fade>
+						<div class="gameInfoItem">
+							<div class="gameInfoFullbar">
+								<div class="gameInfoBar" style="width:29%"></div>
+								<span class="percentageInside">29%</span>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEnd" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>
 					<!-- New progress bar for player9 -->
 					<div class="player13 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player9</div>
-						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:6%"></div>
 								<span class="percentageInside">6%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEndLeft" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>
 					<div class="player14 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player8</div>
 						<div class="gameInfoItem">Day 1 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:45%"></div>
 								<span class="percentageInside">45%</span>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEnd" alt="Apple Logo"/>
 							</div>
 						</div>
 					</div>
 					<!-- New progress bar for player9 -->
 					<div class="player15 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player9</div>
-						<div class="gameInfoItem">Day 1 retention</div>
-						<div class="gameInfoItem">
-							<div class="gameInfoFullbar">
-								<div class="gameInfoBar" style="width:40%"></div>
-								<span class="percentageInside">40%</span>
-							</div>
-						</div>
-					</div>
-					<div class="player16 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player8</div>
 						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:17%"></div>
 								<span class="percentageInside">17%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/apple.png" class="logoEndLeft" alt="Apple Logo"/>
+							</div>
+						</div>
+					</div>
+					<div class="player16 wealthNumber" in:fade={{ delay: 400 }} out:fade>
+						<div class="gameInfoItem">
+							<div class="gameInfoFullbar">
+								<div class="gameInfoBar" style="width:40%"></div>
+								<span class="percentageInside">40%</span>
+								<div class="logoContainer"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEnd" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>
 					<!-- New progress bar for player9 -->
 					<div class="player17 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Player9</div>
-						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
 								<div class="gameInfoBar" style="width:13%"></div>
 								<span class="percentageInside">13%</span>
+								<div class="logoContainerLeft"></div>
+									<img src="docs/assets/yardsale/art/android.png" class="logoEndLeft" alt="Android Logo"/>
 							</div>
 						</div>
 					</div>								
 					{/if}
-					{#if container == "scrolly2" && [3,4,9,10,11].indexOf(currentStageNumber) != -1 }
+					{#if container == "scrolly2" && [2,3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
 					<div class="wager" in:fade={{ delay: 0 }} out:fade>
 						<div class="gameInfoItem brighter">Median of all games</div> 
 					</div>
@@ -717,21 +724,21 @@
 	}
 	.gameContainer .player8 {
 		left: 5%;
-		top: 100px;
+		top: 80px;
 		text-align: left;
 	}
 	.gameContainer .player9 {
-		top: 100px;
+		top: 80px;
 		right: 5%;
 		text-align: right;
 	}
 	.gameContainer .player10 {
 		left: 5%;
-		top: 200px;
+		top: 120px;
 		text-align: left;
 	}
 	.gameContainer .player11 {
-		top: 200px;
+		top: 120px;
 		right: 5%;
 		text-align: right;
 	}
@@ -909,7 +916,6 @@
 	}
 	.scrollyBackground img {
 		position: absolute;
-		width:  100%;
 		max-width: none !important;
 		transition: all 800ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
 		transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000);
@@ -971,12 +977,41 @@
 		color: #ffffff; /* Make text color readable over the bar */
 		font-weight: bold; /* Make text bold */
 	}
-	.logoEnd {
+	.logoContainer {
 		position: absolute;
 		right: 0;
-		top: 50%;
-		transform: translateY(-50%);
-		height: 30px; /* or the height of your logo */
+		top: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center; /* This will vertically center the logo inside the bar */
+		justify-content: flex-end; /* This will place the logo at the far right */
+		padding-right: 10px; /* Adjust padding to not overlap the percentage text */
+		z-index: 10;
+	}
+
+	.logoEnd {
+		height: 100%; /* Adjust height to fit the bar height */
+		width: auto; /* Auto width to maintain aspect ratio */
+		object-fit: contain; /* To prevent the logo from stretching */
+		right: 0;
+	}
+	.logoContainerLeft {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center; /* This will vertically center the logo inside the bar */
+		justify-content: flex-end; /* This will place the logo at the far right */
+		padding-right: 10px; /* Adjust padding to not overlap the percentage text */
+		z-index: 10;
+	}
+
+	.logoEndLeft {
+		height: 100%; /* Adjust height to fit the bar height */
+		width: auto; /* Auto width to maintain aspect ratio */
+		object-fit: contain; /* To prevent the logo from stretching */
+		left: 0;
 	}
 
 </style>
