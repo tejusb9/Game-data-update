@@ -632,6 +632,9 @@
 					<div class="wager" in:fade={{ delay: 0 }} out:fade>
 						<div class="gameInfoItem brighter">Median of all games</div> 
 					</div>
+					<div class="wager" in:fade={{ delay: 0 }} out:fade>
+						<div class="top25 brighter">Top 25% of all games</div> 
+					</div>
 					{/if}
 				</div>
 
@@ -706,6 +709,16 @@
 		text-align: center;
 		width: 100%;
 		left: 0%;
+	}
+	.top25 {
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		top: 50%; /* Adjust this value to position the label at the correct Y-offset */
+		transform: translateY(-50%);
+		font-size: 1em; /* Adjust font size as needed */
+		color: #fff; /* Adjust text color as needed */
+
 	}
 	@media only screen and (max-width: 640px) { 
 		.gameContainer {
