@@ -489,7 +489,7 @@
 
 				<!-- Comic coin flip overlay data -->
 				<div class="gameContainer">
-					{#if container == "scrolly2" && [2,3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
+					{#if container == "scrolly2" && [3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
 					<div class="player1 wealthNumber" in:fade={{ delay: 400 }} out:fade>
 						<div class="gameInfoItem">Day 1 retention</div>
 						<div class="gameInfoItem">
@@ -623,7 +623,7 @@
 						</div>
 					</div>								
 					{/if}
-					{#if container == "scrolly2" && [2,3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
+					{#if container == "scrolly2" && [3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
 					<div class="wager" in:fade={{ delay: 0 }} out:fade>
 						<div class="gameInfoItem brighter">Median of all games</div> 
 					</div>
