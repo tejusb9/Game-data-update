@@ -491,7 +491,6 @@
 				<div class="gameContainer">
 					{#if container == "scrolly2" && [2,3,4,5,8,9,10,11,12,13].indexOf(currentStageNumber) != -1 }
 					<div class="player1 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						<div class="gameInfoItem brighter">Apple</div>
 						<div class="gameInfoItem">Day 1 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
@@ -503,11 +502,7 @@
 						</div>
 					</div>
 					<div class="player2 wealthNumber" in:fade={{ delay: 400 }} out:fade>
-						{#if currentStageNumber < 6 }
-						<div class="gameInfoItem brighter">Android</div>
-						{:else}
-						<div class="gameInfoItem brighter">Jon</div>
-						{/if}
+
 						<div class="gameInfoItem">Day 7 retention</div>
 						<div class="gameInfoItem">
 							<div class="gameInfoFullbar">
@@ -635,6 +630,9 @@
 					<div class="wager" in:fade={{ delay: 0 }} out:fade>
 						<div class="top25 brighter">Top 25% of all games</div> 
 					</div>
+					<div class="wager" in:fade={{ delay: 0 }} out:fade>
+						<div class="top2 brighter">Top 2% of all games</div> 
+					</div>
 					{/if}
 				</div>
 
@@ -714,7 +712,17 @@
 		text-align: center;
 		width: 100%;
 		position: absolute;
-		top: 50%; /* Adjust this value to position the label at the correct Y-offset */
+		top: calc(50% + 130px); /* Adjust this value to position the label at the correct Y-offset */
+		transform: translateY(-50%);
+		font-size: 1em; /* Adjust font size as needed */
+		color: #fff; /* Adjust text color as needed */
+
+	}
+	.top2 {
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		top: calc(50% + 230px); /* Adjust this value to position the label at the correct Y-offset */
 		transform: translateY(-50%);
 		font-size: 1em; /* Adjust font size as needed */
 		color: #fff; /* Adjust text color as needed */
@@ -729,10 +737,12 @@
 	}
 	.gameContainer .player1 {
 		left: 5%;
+		top: 29px;
 		text-align: left;
 	}
 	.gameContainer .player2 {
 		right: 5%;
+		top: 29px;
 		text-align: right;
 	}
 	.gameContainer .player8 {
@@ -747,41 +757,41 @@
 	}
 	.gameContainer .player10 {
 		left: 5%;
-		top: 120px;
+		top: 135px;
 		text-align: left;
 	}
 	.gameContainer .player11 {
-		top: 120px;
+		top: 135px;
 		right: 5%;
 		text-align: right;
 	}
 	.gameContainer .player12 {
 		left: 5%;
-		top: 300px;
+		top: 186px;
 		text-align: left;
 	}
 	.gameContainer .player13 {
-		top: 300px;
+		top: 186px;
 		right: 5%;
 		text-align: right;
 	}
 	.gameContainer .player14 {
 		left: 5%;
-		top: 400px;
+		top: 235px;
 		text-align: left;
 	}
 	.gameContainer .player15 {
-		top: 400px;
+		top: 235px;
 		right: 5%;
 		text-align: right;
 	}
 	.gameContainer .player16 {
 		left: 5%;
-		top: 500px;
+		top: 285px;
 		text-align: left;
 	}
 	.gameContainer .player17 {
-		top: 500px;
+		top: 285px;
 		right: 5%;
 		text-align: right;
 	}
