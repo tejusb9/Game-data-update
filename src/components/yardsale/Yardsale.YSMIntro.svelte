@@ -74,7 +74,7 @@
                 worldrecord = d.wealth;
             }
         });
-        // setting the ticks based on the highest number
+        // setting the ticks based on the highest numerical value
         
         if (worldrecord > 20000) {
             highestNumber = 120000;
